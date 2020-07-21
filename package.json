@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-antd-type-icon",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "main": "lib/index.js",
   "description": "Add <Icon type=\"iconType\" /> component for antd@4 and only import icons you need.",
   "authors": {

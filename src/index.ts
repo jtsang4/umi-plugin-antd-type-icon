@@ -25,6 +25,9 @@ export default function (api: IApi) {
   });
 
   const { icons } = api.userConfig;
+  if (!icons) {
+    return;
+  }
   if (!icons.length) {
     throw new Error('[umi-plugin-antd-type-icon]: icons must not be empty.');
   }
