@@ -3,7 +3,12 @@
 [![NPM version](https://img.shields.io/npm/v/umi-plugin-antd-type-icon.svg?style=flat)](https://npmjs.org/package/umi-plugin-antd-type-icon)
 [![NPM downloads](http://img.shields.io/npm/dm/umi-plugin-antd-type-icon.svg?style=flat)](https://npmjs.org/package/umi-plugin-antd-type-icon)
 
-Add &lt;Icon type="iconType" /&gt; component for antd@4 and only import icons you need.
+Add `<Icon type="iconType" />` component for antd@4 and only import icons you need.
+
+> - When to use this plugin?
+>
+> If you want to render antd icon dynamically, this plugin could render icons in a scope which you specified instead of import all antd icons. 
+
 
 ## Install
 
