@@ -7,7 +7,7 @@ Add `<Icon type="iconType" />` component for antd@4 and only import icons you ne
 
 > - When to use this plugin?
 >
-> If you want to render antd icon dynamically, this plugin could render icons in a scope which you specified instead of import all antd icons. 
+> If you want to render antd icon dynamically, this plugin could render icons in a scope which you specified instead of importing all antd icons. 
 
 
 ## Install
