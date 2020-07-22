@@ -21,6 +21,9 @@ export default () => (
       <li>
         <Icon type="Test" />
       </li>
+      <li>
+        <Icon type="TestError" />
+      </li>
     </ul>
   </div>
 );

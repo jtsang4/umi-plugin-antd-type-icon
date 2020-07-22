@@ -17,6 +17,12 @@ export interface IconProps {
 export const Icon: React.FC<IconProps> = props => {
   const { type, ...otherProps } = props;
   const Component = Icons[type];
+  if (!Component) {
+    if (process.env.NODE_ENV === 'development') {
+      console.error(\`[umi-plugin-antd-type-icon]: The icon type "\${type}" is not specified in config.\`);
+    }
+    return null;
+  }
   return <Component {...otherProps} />;
 };
 `;
